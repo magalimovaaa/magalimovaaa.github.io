@@ -1,0 +1,32 @@
+.team-skills {
+  margin-bottom: 84px;
+}
+
+.team-skills .wrapper__skills {
+  display: flex;
+  flex-wrap: wrap;
+  width: 640px;
+}
+
+.team-skills .wrapper__skills .skill__items {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.team-skills .wrapper__skills .skill__items:not(:last-child) {
+  margin-right: 17px;
+}
+
+.team-skills .wrapper__skills .skill__items .skill__icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 6px;
+}
+
+
+.team-skills .wrapper__skills .skill__items .skill__title {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 120%;
+}

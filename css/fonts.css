@@ -1,0 +1,51 @@
+/* Benzin */
+@font-face {
+  font-family: 'Benzin';
+  src: url('../fonts/BenzinRegular.woff2') format('woff2'),
+       url('../fonts/BenzinRegular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Benzin';
+  src: url('../fonts/BenzinBold.woff2') format('woff2'),
+       url('../fonts/BenzinBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Futura New */
+@font-face {
+  font-family: 'Futura New';
+  src: url('../fonts/FuturaNewLightReg.woff2') format('woff2'),
+       url('../fonts/FuturaNewLightReg.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura New';
+  src: url('../fonts/FuturaNewBookReg.woff2') format('woff2'),
+       url('../fonts/FuturaNewBookReg.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura New';
+  src: url('../fonts/FuturaNewDemiReg.woff2') format('woff2'),
+       url('../fonts/FuturaNewDemiReg.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura New';
+  src: url('../fonts/FuturaNewBoldReg.woff2') format('woff2'),
+       url('../fonts/FuturaNewBoldReg.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+

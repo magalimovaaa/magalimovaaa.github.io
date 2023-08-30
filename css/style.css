@@ -1,0 +1,14 @@
+@import url('./normalize.css');
+@import url('./vars.css');
+@import url('./global.css');
+@import url('./fonts.css');
+
+@import url('./components/header.css');
+@import url('./components/technicals.css');
+@import url('./components/team-skills.css');
+@import url('./components/footer.css');
+
+
+
+
+

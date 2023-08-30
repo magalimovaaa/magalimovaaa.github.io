@@ -1,0 +1,117 @@
+.technicals {
+  margin-bottom: 65px;
+}
+
+.technicals .wrapper__technicals {
+display: flex;
+}
+
+.wrapper__technicals .technical {
+  position: relative;
+  background-color: var(--black-color);
+  padding: 10px;
+  height: 100%;
+  width: 135px;
+  border-radius: 10px;
+}
+
+.wrapper__technicals .technical:not(:last-child) {
+  margin-right: 10px;
+}
+
+.wrapper__technicals .technical:last-child {
+  width: 207px;
+}
+
+.wrapper__technicals .technical::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  bottom: -1px;
+  left: -1px;
+  right: -1px;
+  background: linear-gradient(135deg, #2F5CB4 0%, #6EC4C6 100%);
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.wrapper__technicals .technical .technical__header {
+
+}
+
+.wrapper__technicals .technical .technical__header .technical__header__number {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 96%;
+  background-color: #2F5CB4;
+  background-image: linear-gradient(135deg, #2F5CB4 10%, #6EC4C6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wrapper__technicals .technical .technical__header .technical__header__tools {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.wrapper__technicals .technical .technologies {
+
+}
+
+.wrapper__technicals .technical .technologies .technology {
+  display: flex;
+  align-items: center;
+  padding: 7px 10px;
+  background: var(--opacity-light-color);
+  border-radius: 100px;
+  width: 116px;
+}
+.wrapper__technicals .technical .technologies .technology:first-child {
+  margin-bottom: 9px;
+}
+
+.wrapper__technicals .technical .technologies .technology .technology__icon {
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.wrapper__technicals .technical .technologies .technology .technology__name {
+  font-size: 12px;
+  font-weight: 700;
+} 
+
+.wrapper__technicals .technical:last-child {
+  width: 205px;
+}
+
+.wrapper__technicals .technical:last-child .technologies {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper__technicals .technical:last-child .technologies .technology {
+  width: 80px;
+}
+
+.wrapper__technicals .technical:last-child .technologies .technology:first-child {
+  margin-right: 10px;
+}
+
+.wrapper__technicals .technical:last-child .technologies .technology:nth-child(2) {
+  margin-right: 3px;
+}
+
+@media (max-width: 768px) {
+  .wrapper__technicals {
+    flex-wrap: wrap;
+  }
+
+  .wrapper__technicals .technical:not(:last-child) {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,9 @@
+:root {
+  --accent-gradient: linear-gradient(157deg, #2F5CB4 0%, #6EC4C6 100%);
+  --light-color: #ffffff;
+  --font-benzin: 'Benzin';
+  --font-futura: 'Futura New';
+  --black-color: #000000;
+  --opacity-light-color: rgba(255, 255, 255, 0.10);
+}
+
